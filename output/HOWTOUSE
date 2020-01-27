@@ -1,0 +1,5 @@
+1. Set your AWS credentials
+~/.aws/credentials
+ 
+2. Excute programe
+./aws_sg_search.sh

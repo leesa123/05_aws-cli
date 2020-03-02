@@ -37,7 +37,7 @@ _VPC_ID=vpc-084c5654b492c2f53
 #|  default                               |  sg-ed34be94           |
 #+----------------------------------------+------------------------+
 find_sg_name-id() {
-        aws ec2 describe-security-groups --query "SecurityGroups[].[GroupName,GroupId]" --output table
+	aws ec2 describe-security-groups --query "sort_by(SecurityGroups,&GroupName)[].[GroupName,GroupId]" --output table
         echo -n ": "
 }
  

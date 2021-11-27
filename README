@@ -1,4 +1,5 @@
 Development environment
 : jq / jq-1.5 aws / aws-cli/1.16.223 Python/2.7.15 Linux/4.18.0-80.4.2.el8_0.x86_64 botocore/1.12.213
-
-aws_ec2_controller.sh：EC2インスタンス起動・停止
+↳aws_ec2_controller.sh：EC2インスタンス起動・停止
+↳aws_ec2_search.sh：EC2一覧出力
+↳aws_sg_search.sh：セキュリティーグループ一覧出力

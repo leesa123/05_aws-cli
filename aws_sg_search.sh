@@ -19,7 +19,7 @@ output_man() {
 }
  
 # Set the vpc-id ( Only get_sg_details() is used )
-_VPC_ID=vpc-084c5654b492c2f53
+_VPC_ID=XXXX
  
 # 1. Get the entire list
 #
